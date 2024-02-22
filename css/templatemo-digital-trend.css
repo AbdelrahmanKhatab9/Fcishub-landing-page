@@ -31,13 +31,13 @@ https://templatemo.com/tm-538-digital-trend
   }
 
   :root {
-    --primary-color:        #fa7f4e; /* slop part color*/
+    --primary-color:        #171718; /* slop part color*/
     --secondary-color:      #ffffff; /*shading color*/
     --white-color:          #ffffff;
     --dark-color:           #171819;
     --project-bg:           #f0f8ff;
-    --menu-bg:              #616e77; /* upper menu color*/
-
+    --menu-bg:              #4e9c20; /* upper menu color*/
+    
     --title-color:          #15141a;
     --gray-color:           #909090;
     --link-color:           #404040;
@@ -139,12 +139,13 @@ https://templatemo.com/tm-538-digital-trend
   }
 
 
-  /* BUTTON */
+  /* BUTTON */ 
   .custom-btn {
     background: transparent;
     border: 2px solid var(--dark-color);
     border-radius: var(--border-radius-large);
-    padding: 12px 26px 14px 26px;
+    padding: 20px 100px 20px 120px;
+    /* padding: 12px 26px 14px 26px; */
     color: var(--dark-color);
     font-family: var(--title-font-family);
     font-size: var(--p-font-size);
